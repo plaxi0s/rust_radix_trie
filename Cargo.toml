@@ -27,6 +27,7 @@ serde_test = "1.0"
 [[bench]]
 name = "trie_benches"
 harness = false
+bench = false
 
 [lib]
 bench = false
@@ -34,3 +35,5 @@ bench = false
 [badges]
 appveyor = { repository = "michaelsproul/rust_radix_trie" }
 maintenance = { status = "as-is" }
+
+
